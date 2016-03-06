@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="gameOver.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gameOver.Designer.cs">
+      <DependentUpon>gameOver.cs</DependentUpon>
+    </Compile>
     <Compile Include="gameScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gameOver.resx">
+      <DependentUpon>gameOver.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gameScreen.resx">
       <DependentUpon>gameScreen.cs</DependentUpon>
@@ -74,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +97,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mistake.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
