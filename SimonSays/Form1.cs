@@ -18,7 +18,7 @@ namespace SimonSays
         public Form1()
         {
             InitializeComponent();
-    }
+        }
         //start button clicked method
         private void startButton_Click(object sender, EventArgs e)
         {
@@ -32,7 +32,8 @@ namespace SimonSays
                 gs.BringToFront();
             }
             //unless you're JT, you have a longer name than two characters
-            else {
+            else
+            {
                 errorLabel.Text = "Your name does not have less than three characters. Probably.";
             }
         }

@@ -25,14 +25,18 @@ namespace SimonSays
 
             againLabel.Text = "would you like some more?";
         }
+
         //exit button clicked method
         private void exitButton_Click(object sender, EventArgs e)
+
         {
             //close the application
             Application.Exit();
         }
+
         //restartbutton clicked method
         private void restartButton_Click(object sender, EventArgs e)
+
         {
             //restart the app
             Application.Restart();

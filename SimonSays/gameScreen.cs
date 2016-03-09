@@ -63,6 +63,7 @@ namespace SimonSays
                 {
                     //each case flashes the button, plays a sound and then sleeps
                     case 0: //red
+                        Thread.Sleep(200);
                         redButton.BackColor = Color.White;
                         player = new SoundPlayer(Properties.Resources.red);
                         player.Play();
@@ -70,6 +71,7 @@ namespace SimonSays
                         redButton.BackColor = Color.Red;
                         break;
                     case 1: //blue
+                        Thread.Sleep(200);
                         blueButton.BackColor = Color.White;
                         player = new SoundPlayer(Properties.Resources.blue);
                         player.Play();
@@ -77,6 +79,7 @@ namespace SimonSays
                         blueButton.BackColor = Color.Blue;
                         break;
                     case 2: //yellow
+                        Thread.Sleep(200);
                         yellowButton.BackColor = Color.White;
                         player = new SoundPlayer(Properties.Resources.yellow);
                         player.Play();
@@ -84,6 +87,7 @@ namespace SimonSays
                         yellowButton.BackColor = Color.Yellow;
                         break;
                     case 3: //green
+                        Thread.Sleep(200);
                         greenButton.BackColor = Color.White;
                         player = new SoundPlayer(Properties.Resources.green);
                         player.Play();
